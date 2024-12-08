@@ -22,12 +22,14 @@ function getHourTime() {
   console.log("FORMATED TIME ##################################",formattedTime);
   return formattedTime;
 }
+// 6442868170:AAEL3S-PAWzVhO20FtiTar7U7Jp1mXaNO6g
+// -1002138763777
 
 const httpsAgent = new https.Agent({ rejectUnauthorized: false });
-const bot = new TelegramBot("6442868170:AAEL3S-PAWzVhO20FtiTar7U7Jp1mXaNO6g", {
+const bot = new TelegramBot("7438879701:AAHdA2DjlXDmbIQ49VLY39o4ABLlkq6qUo8", {
   polling: true,
 });
-const chatId = -1002138763777;
+const chatId = -1002236832717;
 let lastUniqueId = "";
 
 async function authenticate() {

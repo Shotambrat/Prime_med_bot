@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "prod": "pm2 start index.js --name bot-prime",
+    "restart": "pm2 restart bot-prime",
+    "stop": "pm2 stop bot-prime",
+    "pull": "git pull origin master"
   },
   "author": "",
   "license": "ISC",
